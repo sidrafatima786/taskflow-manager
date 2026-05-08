@@ -184,17 +184,17 @@ function RegisterPage() {
             </select>
           </div>
 
-          <Button
+          <button
             type="submit"
             disabled={loading}
-            className="w-full gradient-primary text-primary-foreground shadow-glow"
+            className="w-full gradient-primary text-primary-foreground shadow-glow rounded-xl py-3"
           >
             {loading ? (
               <Spinner className="text-primary-foreground" />
             ) : (
               "Create account"
             )}
-          </Button>
+          </button>
         </form>
 
         <p className="text-sm text-muted-foreground mt-6 text-center">
